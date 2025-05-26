@@ -35,22 +35,18 @@
 📌 
 
 - `/screenshots/ui_home.png` – Patient input form
-- `/screenshots/result_view.png` – Result display
   
   ![IMG-20250517-WA0012](https://github.com/user-attachments/assets/4b80bb54-3a04-4027-b999-9b4caff8e027)
   ![IMG-20250517-WA0013](https://github.com/user-attachments/assets/3b02ed65-ea64-497b-ba09-6360d913d288)
   ![IMG-20250517-WA0014](https://github.com/user-attachments/assets/aeb7a19b-91e4-48a4-80f9-5b7e321ddc32)
+  ![balanced_confusion_matrix](https://github.com/user-attachments/assets/d9f11e9b-7d4e-4e13-a1a3-6eba0581a197)
 
-- `/screenshots/confusion_matrix.png` – Model performance
   ![Accuracy](https://github.com/user-attachments/assets/0a7bb326-3f09-47d6-a594-f97c4c76fb86)
 
-- `/screenshots/ai_vs_nonai.png` – AI vs non-AI detection impact
   ![IMG-20250517-WA0007](https://github.com/user-attachments/assets/1441f742-6692-4bda-b139-69408164bab2)
 
-- `/screenshots/roc_curve.png` – ROC visualization
   ![ROC](https://github.com/user-attachments/assets/dc64e7c9-fae2-47e5-a09e-a8611e09ab9c)
 
-- `/screenshots/actual_vs_predicted.png` – Comparison graph
   ![IMG-20250517-WA0009](https://github.com/user-attachments/assets/4c4e1a75-5618-480d-81b4-233612fd5d90)
 
 ## 📁 Folder Structure

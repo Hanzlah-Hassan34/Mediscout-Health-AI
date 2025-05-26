@@ -93,34 +93,46 @@ MediScout/
 
 
 🧠 Problem Statement / Motivation
-Access to early medical diagnostics remains a critical challenge in Pakistan’s rural and peri-urban regions. Seasonal surges in diseases like dengue, tuberculosis, ARIs, and maternal complications go undetected due to lack of tools. MediScout empowers CHWs with AI-assisted triage and diagnosis to reduce delays and enhance intervention — directly supporting SDG 3: Good Health and Well-being.
+Access to early medical diagnostics remains a critical challenge in Pakistan’s rural and peri-urban regions. Seasonal surges in diseases like dengue, tuberculosis, ARIs, and maternal 
+
+complications go undetected due to lack of tools. MediScout empowers CHWs with AI-assisted triage and diagnosis to reduce delays and enhance intervention — directly supporting SDG 3: 
+
+Good Health and Well-being.
 
 ▶️ How to Run the Project
 
 # Step 1: Clone the repo
+
 git clone https://github.com/yourusername/mediscout.git
+
 cd mediscout/
 
 # Step 2: Install dependenciesM
+
 pip install -r requirements.txt
 
 # Step 3: Run the app
 python lastapp.py
+
 Navigate to http://127.0.0.1:5000/ in your browser.
 
 👨‍💻 Team & Contributions
 
 Salman Ahmad (BS SE) – UI/UX development, deployment configuration, and system design
+
 Hanzlah Hassan (BS AI) – Model training, evaluation, and synthetic data generation
+
 Awais Ali (BS AI) – Full-stack AI pipeline integration, frontend-backend interaction
 
 
 🎓 Course / Context
 🚀 Developed for a Hackathon organized by Capital University of Science & Technology (CUST)
+
 📅 Spring 2025 | AI for Health Domain
 
 
 📌 Extra Notes
+
 🧪 Includes synthetic patient data modeled on real epidemiological assumptions (e.g., dengue spikes in monsoon)
 
 📉 Evaluation visualizations include confusion matrix, ROC, AI vs Non-AI effectiveness, etc.

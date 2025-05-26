@@ -36,6 +36,7 @@
 
 - `/screenshots/ui_home.png` – Patient input form
 - `/screenshots/result_view.png` – Result display
+  
   ![IMG-20250517-WA0012](https://github.com/user-attachments/assets/4b80bb54-3a04-4027-b999-9b4caff8e027)
   ![IMG-20250517-WA0013](https://github.com/user-attachments/assets/3b02ed65-ea64-497b-ba09-6360d913d288)
   ![IMG-20250517-WA0014](https://github.com/user-attachments/assets/aeb7a19b-91e4-48a4-80f9-5b7e321ddc32)
@@ -57,22 +58,39 @@
 MediScout/
 │
 ├── lastapp.py                        # Main Flask application
+
 ├── lastbalanced_model.pkl           # Trained RandomForest model
+
 ├── lastsimple_model_web.py          # Feature extraction logic
+
 ├── lastbalanced_model_trainer.py    # Model training script
+
 ├── evaluate_climate.py              # Climate impact evaluation
+
 ├── templates/
+
 │   ├── index.html                   # Input UI
+
 │   └── result.html                  # Output UI
+
 ├── static/
+
 │   └── uploads/                     # Uploaded patient images
+
 ├── data/
+
 │   ├── simulated_health_data.csv    # Synthetic patient records for training
+
 │   ├── climate_dataset.csv          # External climate data (temperature, rainfall, etc.)
+
 │   └── symptom_keywords.csv         # Keyword reference for symptom triage
+
 ├── evaluation_results/              # Model graphs & evaluations
+
 ├── medi_scout_output.csv            # Logs and predictions of inference cases
+
 └── requirements.txt                 # Python dependencies
+
 
 🧠 Problem Statement / Motivation
 Access to early medical diagnostics remains a critical challenge in Pakistan’s rural and peri-urban regions. Seasonal surges in diseases like dengue, tuberculosis, ARIs, and maternal complications go undetected due to lack of tools. MediScout empowers CHWs with AI-assisted triage and diagnosis to reduce delays and enhance intervention — directly supporting SDG 3: Good Health and Well-being.
